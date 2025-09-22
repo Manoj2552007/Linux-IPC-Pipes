@@ -1,9 +1,6 @@
 # Linux-IPC--Pipes
 Linux-IPC-Pipes
 
-Name: AHAMED JASEER SHA E
-
-Regno: 212224040015
 
 # Ex03-Linux IPC - Pipes
 
@@ -25,9 +22,13 @@ Write the C Program using Linux Process API - pipe(), fifo()
 Testing the C Program for the desired output. 
 
 # PROGRAM:
-
+```
+DEVELOPED BY:Manoj R
+REG.NO:212224230152
+```
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 ```
+#include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -83,8 +84,11 @@ buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
 ```
+
+
 ## OUTPUT
-![368436572-bc22623e-085c-4ddb-a18d-d0f870a43aad](https://github.com/user-attachments/assets/40dd20bc-da36-4a1d-9766-45f07062b815)
+![image](https://github.com/23004513/Linux-IPC-Pipes/assets/138973069/a646e288-2104-4f31-847c-a6fd00a23530)
+
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
@@ -99,9 +103,13 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 }
 ```
-## OUTPUT
 
-![368436701-5f3b0f8d-afaf-4e88-97ae-fa9eccaec929](https://github.com/user-attachments/assets/337655e9-7d69-4488-af12-3f5d8653aa61)
+
+
+
+## OUTPUT
+![image](https://github.com/23004513/Linux-IPC-Pipes/assets/138973069/ae8e8211-bf51-4c68-af8a-321ef2876212)
+
 
 # RESULT:
 The program is executed successfully.
